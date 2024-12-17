@@ -1,0 +1,15 @@
+ProductController(Features)
+--> Get All Products
+--> Add a Product
+--> Get One Product
+--> Filter Product
+// after securing the api using jwt
+--> rate a Product by using userId(seted from jwt payload while login), ProductId and rating out of 5 or 10
+UserController(Features) using jwt token
+--> SignUp User (id, name, email, typeOf(seller, Buyer))
+--> SignIn User
+
+CartItemController(Features)
+--> add to cart (userId from jwt token, productId, quantity, id)
+--> get items from cart (userId from jwt token)
+--> remove cart item (userId from jwt token, cartItemId)
